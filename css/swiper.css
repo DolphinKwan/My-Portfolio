@@ -47,10 +47,10 @@
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-  cursor:url(../img/drag.png) 16 9, ew-resize!important;
+  cursor:url(../img/drag.png) 16 9, ew-resize;
 }
 .swiper-container-vertical .swiper-wrapper{
-  cursor:url(../img/drag-vertical.png) 8 16, ew-resize!important;
+  cursor:url(../img/drag-vertical.png) 8 16, ew-resize;
 }
 .swiper-container-android .swiper-slide,
 .swiper-wrapper {

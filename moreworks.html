@@ -8,6 +8,7 @@
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163200117-1"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.6.10/lottie.min.js"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -204,12 +205,44 @@
         <div class="wide-container-fluid wide-paddings">
             <div class="row">
                 <div class="container">
+                    <div id="bm" class="portfolio-detail-entry">
+                    </div>
+
+                    <div class="row text-left">
+                        <div class="text-left">
+                            <div class="empty-space col-xs-b20"></div>
+                            <a class="button type-3"  onclick="playAnimation()"><b>New Moon</b></a>
+                            <div class="empty-space col-xs-b20"></div>
+                        </div>
+                    </div>
+
+                    <div class="row text-center">
+                        <div class="text-center">
+                            <div class="empty-space col-xs-b20"></div>
+                            <a class="button type-3"  onclick="playAnimation2()"><b>First Quarter</b></a>
+                            <div class="empty-space col-xs-b20"></div>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <iframe 
+                        class="text-left" 
+                        src="https://docs.google.com/forms/d/e/1FAIpQLScAYjkXQFlEnMFrxnOe9yqL71KVo7gY9oo2CaUyO8O_kfkqiQ/viewform?embedded=true" 
+                        width="640" 
+                        height="1482" 
+                        frameborder="0" 
+                        marginheight="0" 
+                        marginwidth="0">
+                        Loading…
+                        </iframe>
+
+                    </div>
+
 
                     <div class="empty-space col-xs-b40 col-sm-b0"></div>
 
                     <div class="row col-xs-text-center col-sm-text-left">
                         <div class="col-sm-4 col-md-3 col-md-offset-1">
-                            <div class="h3"><b>Storyboarding <br/></b></div>
+                            <div class="h3" ><b>Storyboarding <br/></b></div>
                             <div class="empty-space col-xs-b10 col-sm-b0"></div>
                         </div>
                         <!-- <div class="col-sm-8 col-md-7">
@@ -656,6 +689,7 @@
     </script>
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script src="js/map.js"></script>
+    <script src="js/Lottie.js" type="text/javascript"></script>
 
 </body>
 </html>
