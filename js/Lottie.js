@@ -33,25 +33,56 @@ var animation1_1 = bodymovin.loadAnimation({
   var animation2_2 = bodymovin.loadAnimation({
     container: document.getElementById('bm2_2'),
     renderer: 'svg',
-    loop: true,
-    autoplay: true,
+    loop: false,
+    autoplay: false,
     path: 'data2_2.json'
   })
 
-function playSection1() {
-  animation1.playSegments([0,150], true);
-  // animation.play();
+function firstQuarter() {
+  $(function(){
+    "use strict";
+    animation2_2.playSegments([0,60], true);
+
+    $("#moonphase").html("First Quarter");
+  })
   
-  // animation.goToAndStop(0, true);
-  // animation.playSegments([[0,150],[300,450]], true);
-    
 }
-function playSection2() {
-    
-  animation1.playSegments([150,300], true);
+function fullMoon() {
 
-}
+  $(function(){
+    "use strict";
 
+    animation2_2.playSegments([60,120], true);
 
+    $("#moonphase").html("Full Moon");
+
+  })
   
 
+}
+
+function thirdQuarter() {
+  $(function(){
+    "use strict";
+
+    animation2_2.playSegments([120,180], true);
+
+    $("#moonphase").html("Third Quarter");
+
+  })
+  
+
+}
+  
+function newMoon() {
+  $(function(){
+    "use strict";
+
+    animation2_2.playSegments([0,240], true);
+
+    $("#moonphase").html("New Moon");
+
+  })
+  
+
+}

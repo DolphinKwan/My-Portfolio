@@ -128,6 +128,11 @@ $(function() {
 			swipers['swiper-'+index] = new Swiper('.swiper-'+index,{
 				pagination: '.swiper-pagination-'+index,
 				paginationClickable: true,
+				//MoonRise Project
+				simulateTouch: false,
+				allowTouchMove:false,
+				grabCursor: false,
+
 		        nextButton: '.swiper-button-next-'+index,
 		        prevButton: '.swiper-button-prev-'+index,
 		        slidesPerView: slidesPerViewVar,
@@ -136,7 +141,8 @@ $(function() {
 				autoplay: ($t.data('autoplay'))?parseInt($t.data('autoplay'), 10):0,
 				centeredSlides: ($t.data('center'))?parseInt($t.data('center'), 10):0,
 		        breakpoints: ($t.data('breakpoints'))? { 767: { slidesPerView: parseInt($t.attr('data-xs-slides'), 10) }, 991: { slidesPerView: parseInt($t.attr('data-sm-slides'), 10) }, 1199: { slidesPerView: parseInt($t.attr('data-md-slides'), 10) } } : {},
-				initialSlide: ($t.data('ini'))?parseInt($t.data('ini'), 10):0,
+				//MoonRise Project
+				// initialSlide: ($t.data('ini'))?parseInt($t.data('ini'), 10):0,
 		        watchSlidesProgress: true,
 		        speed: ($t.data('speed'))?parseInt($t.data('speed'), 10):500,
 		        parallax: ($t.data('parallax'))?parseInt($t.data('parallax'), 10):0,
