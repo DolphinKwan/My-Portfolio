@@ -23,7 +23,6 @@
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link href="css/swiper.css" rel="stylesheet" type="text/css" />
     <link href="css/moonrise.css" rel="stylesheet" type="text/css" />
-    
     <!--[if lt IE 9]>
         <link rel="stylesheet" type="text/css" href="css/ie8-and-down.css" />
     <![endif]-->
@@ -33,7 +32,6 @@
     <link rel="shortcut icon" href="img/favicon.png" />
   	<title>DAOXUN GUAN</title>
 </head>
-
 <body class="fonts-1">
 
     <!-- LOADER -->
@@ -47,11 +45,11 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12">
-                            
+
                                 <nav class="text-center single-column clearfix">
                                     <ul>
                                         <li class="active"><a href="index.html">Home</a></li>
-                                        <li><a href="detail7.html">Pretest</a></li>
+                                        <li><a href="detail7.html">Pretesting</a></li>
                                         <li><a href="chapter1.html">Chapter 1</a></li>
                                         <li><a href="chapter2.html">Chapter 2</a></li>
                                         <li><a href="chapter3.html">Chapter 3</a></li>
@@ -78,18 +76,14 @@
                         <a class="logo"><img src="img/logo1.png" alt="" /></a>  
                     </div> -->
                     <div class=" text-left">
-
-                        <div class="col-xs-2 col-sm-2 hamburger-icon open-overlay" data-rel="1">
+                        <div class="col-xs-6 col-xs-offset-1 col-sm-2 col-sm-offset-0 hamburger-icon open-overlay" data-rel="1">
                             <span></span>
                             <span></span>
                             <span></span>
-
                         </div>
-
                     </div>
-
                     <div class="text-center h4" style="color: lightgrey;">
-                        Chapter 1
+                        Chapter 3
                     </div>
 
                 </div>
@@ -148,44 +142,47 @@
                             <div class="hidden swiper-button-prev swiper-button"></div>
                             <div class="hidden swiper-button-next swiper-button"></div>
 
-                            <div class="swiper-wrapper" >
-                                <div id="bm1_1" class="swiper-slide">
+                            <div class="swiper-wrapper">
+                                <div id="bm3_1" class="swiper-slide">
                                     <div  class="entry full-size mouseover" style="background-image: url(img/background-5.jpg);" href="#">
                                         <!-- <span class="mouseover-helper-frame"></span> -->
-                                        <span class="empty-space col-xs-b15"></span>
                                         <span class="text">
-                                            <span class="col-xs-5 col-xs-offset-7 h3 light" style="font-weight: 800;" data-swiper-parallax="-600">The Daylight and the Night </span>
+                                            <span class="col-xs-5 col-xs-offset-7 h3 light" style="font-weight: 400;" data-swiper-parallax="-600">Weather</span>
                                             <span class="empty-space col-xs-b15"></span>
                                             <span class="col-xs-5 col-xs-offset-7 slide-description simple-article large light transparent" data-swiper-parallax="-400">
-                                                The Sun is like a giant fireball in the space. It lights up all the objects around it. 
-                                                Sunlight is always coming from one direction, half of the Earth will be bright, and the other half will be dark. 
-                                                We call it the bright side and the dark side of the Earth, or the Daylight and the Night. 
-                                                The line divides the bright and the dark side is called the terminator.
+                                                As the same as the Earth, half of the moon is always lit by the Sun. 
+
+                                                The time for the Moon to go through all of it's phases is around 29.5 days. 
+                                            </span>
+                                        </span>
+                                        <div class="homepage-2-pagination">
+                                            <div class="wide-container" style="z-index: 1">
+                                                <div class="slider-click-label active" onclick="cloudy()">cloudy</div>
+                                                <div class="slider-click-label" onclick="foggy()">foggy</div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="bm3_2" class="swiper-slide">
+                                    <div  class="entry full-size mouseover" style="background-image: url(img/background-5.jpg);" href="#">
+                                        <!-- <span class="mouseover-helper-frame"></span> -->
+                                        <span class="text">
+                                            <span id="moonphase" class="col-xs-5 col-sm-offset-7 h3 light" style="font-weight: 400;" data-swiper-parallax="-600">Moon Phases</span>
+                                            <span class="empty-space col-xs-b15"></span>
+                                            <span class="col-xs-5 col-xs-offset-7 slide-description simple-article large light transparent" data-swiper-parallax="-400">
+                                                The Moon phase is the shape of the directly sunlit portion of the Moon as viewed from Earth. 
                                             </span>
                                         </span>
                                     </div>
                                 </div>
 
-                                <div id="bm1_2" class="swiper-slide">
-                                    <div  class="entry full-size mouseover" style="background-image: url(img/background-5.jpg);" href="#">
-                                        <!-- <span class="mouseover-helper-frame"></span> -->
-                                        <span class="text">
-                                            <span class="col-xs-5 col-xs-offset-7 h3 light" style="font-weight: 800;" data-swiper-parallax="-600">Day and Night</span>
-                                            <span class="empty-space col-xs-b15"></span>
-                                            <span class="col-xs-5 col-xs-offset-7 slide-description simple-article large light transparent" data-swiper-parallax="-400">
-                                                The Earth is rotating along its own axis. 
-                                                In the ancient time, we called it "one day" based on the period of time during which the Earth completes one rotation around its axis. 
-                                                It's only because the axis of the rotation is in a proper orientation that we can experience both day and night without traveling around the world. 
-                                            </span>
-                                        </span>
-                                    </div>
-                                </div>
-
-                                <div id="bm1_3" class="swiper-slide">
+                                <div id="bm3_3" class="swiper-slide">
                                     <div class="entry full-size mouseover" style="background-image: url(img/background-4.jpg);" href="#">
                                         <!-- <span class="mouseover-helper-frame"></span> -->
                                         <span class="text">
-                                            <span class="col-xs-5 col-xs-offset-7 h3 light" data-swiper-parallax="-600">Relativity of the frame of reference</span>
+                                            <span class="col-xs-5 col-sm-offset-7 h3 light" data-swiper-parallax="-600">Relativity of the frame of reference</span>
                                             <span class="empty-space col-xs-b15"></span>
                                             <span class="col-xs-5 col-xs-offset-7 slide-description simple-article large light transparent" data-swiper-parallax="-400">
                                                 Why it's the Earth rotating from the West to the East, but we feel like it's the Sun rotating the Earth from the East to the West? 
@@ -197,10 +194,10 @@
                                 </div>
 
                                 <div class="swiper-slide">
-                                    <a class="entry full-size mouseover valign-middle" style="background-image: url(img/background-4.jpg);" href="chapter2.html">
+                                    <a class="entry full-size mouseover valign-middle" style="background-image: url(img/background-4.jpg);" href="posttest.html">
                                         <span class="mouseover-helper-frame"></span>
                                         <span class="text">
-                                            <span class="text-center slide-title h2 light" data-swiper-parallax="-600">Chapter 2</span>
+                                            <span class="text-center slide-title h2 light" data-swiper-parallax="-600">Post Test</span>
                                             <span class="empty-space col-xs-b15"></span>
                                             <span class="text-center slide-description simple-article large light transparent" data-swiper-parallax="-400">Lorem ipsum dolor sit eiusmod tempor incididunt magna.</span>
                                         </span>
@@ -215,11 +212,12 @@
 
                 <div class="homepage-2-pagination hidden-xs">
                     <div class="wide-container">
-                        <a class="slider-click-label" href="#">Pretest</a>
-                        <div class="slider-click-label active" data-pagination-rel="0" data-slide-to="0">The day and the Night</div>
-                        <div class="slider-click-label" data-pagination-rel="0" data-slide-to="1">Rotation of the Earth</div>
-                        <div class="slider-click-label" data-pagination-rel="0" data-slide-to="2">Relativity of the frame of reference</div>
                         <a class="slider-click-label" href="chapter2.html">Chapter 2</a>
+                        <div class="slider-click-label active" data-pagination-rel="0" data-slide-to="0">Weather</div>
+                        <div class="slider-click-label" data-pagination-rel="0" data-slide-to="1">Moon Phases </div>
+                        <div class="slider-click-label" data-pagination-rel="0" data-slide-to="2">How can we observe the Sun</div>
+                        <div class="slider-click-label" data-pagination-rel="0" data-slide-to="3">Weather</div>
+                        <a class="slider-click-label" href="posttest.html">Post test</a>
                     </div>
                 </div>
                 
@@ -252,14 +250,19 @@
             </div>
         </footer> -->
     </div>
-    
-    
+
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/swiper.min.js"></script>
     <script src="js/swiper.jquery.min.js"></script>
     <script src="js/jquery.mousewheel.min.js"></script>
     <script src="js/moonrise.js"></script>
     <script src="js/Lottie.js" type="text/javascript"></script>
+    
+    <script>
+
+        
+
+    </script>
 
 </body>
 </html>
