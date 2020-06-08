@@ -26,7 +26,7 @@ body.mobile .homepage-2-slider .swiper-container .entry:after{background: rgba(0
 /*Phones (<768px)*/
 @media (max-width: 767px) {
 	.homepage-2-slider .swiper-container{margin: 0;}
-	.homepage-2-slider{position: relative; top: auto; bottom: auto; height: 360px; z-index: 1;}
+	.homepage-2-slider{position: relative; top: auto; bottom: auto; min-width: 600px; height: 600px; z-index: 1;}
 	.homepage-2-container{left: 0; top: 0; right: 0; bottom: 0; position: relative;}
 	.homepage-2-pagination{position: relative; height: auto; padding: 15px 60px; min-height: 55px;}
 	.homepage-2-pagination .slider-click-label{display: block; padding: 0;}

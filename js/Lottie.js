@@ -41,7 +41,7 @@ var animation1_1 = bodymovin.loadAnimation({
   var animation2_3 = bodymovin.loadAnimation({
     container: document.getElementById('bm2_3'),
     renderer: 'svg',
-    loop: true,
+    loop: false,
     autoplay: false,
     path: 'data2_3.json'
   })
@@ -143,7 +143,7 @@ function allMoonrise() {
 function firstQuarterMoonrise() {
   $(function(){
     "use strict";
-    animation2_3.playSegments([576,831], true);
+    animation2_3.playSegments([576,850], true);
 
     $("#moonrise").html("First Quarter");
     $("#moonrisetext").html("7 days pass by, when it comes to the first quarter, it will rise at about noon and set at about midnight, due to the moon rise gets delayed day after day since the New Moon.  ");
@@ -168,7 +168,7 @@ function thirdQuarterMoonrise() {
   $(function(){
     "use strict";
 
-    animation2_3.playSegments([1913,2201], true);
+    animation2_3.playSegments([1967,2201], true);
 
     $("#moonrise").html("Third Quarter");
     $("#moonrisetext").html("As the days keep passing by, the time of moon rise will be later day by day. On the third quarter, the Moon will rise at midnight and set at about noon.  ");
