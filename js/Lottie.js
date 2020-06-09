@@ -107,7 +107,7 @@ function newMoon() {
 
   $(function(){
     "use strict";
-    
+    animation2_2.playSegments([0,240], true);
     animation2_2.goToAndStop(0, true);
     
 
