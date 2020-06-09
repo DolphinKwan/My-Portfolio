@@ -135,7 +135,7 @@ function backToNewMoon() {
 function allMoonrise() {
   $(function(){
     "use strict";
-    animation2_3.goToAndPlay(0, true)
+    animation2_3.playSegments([0,2542], true);
   })
   
 }
