@@ -69,7 +69,7 @@ function firstQuarter() {
     animation2_2.loop = false;
 
     $("#moonphase").html("First Quarter");
-    $("#moonphasetext").html("As the Moon orbits from the New Moon position to the First Quarter Position, we can see more and more of the bright side of the Moon until it's half-bright. We call it the First Quarter because it's a quarter of the way through its orbit.  It might be confusing to call it that way, but it precisely describes the essence of it, and it helps you to understand the motion of the Moon. ");
+    $("#moonphasetext").html("As the Moon orbits from the New Moon position to the First Quarter Position, we can see more and more of the bright side of the Moon until it's half-bright. We call this phase the First Quarter because  the Moon is a quarter of the way through its orbit. It might be confusing to call it that way, but it precisely describes the essence of it, and it helps you to understand the motion of the Moon. ");
   })
   
 }
@@ -96,7 +96,7 @@ function thirdQuarter() {
     animation2_2.loop = false;
 
     $("#moonphase").html("Third Quarter");
-    $("#moonphasetext").html("One week after the Full Moon, the Moon will move to its next phase - the Third Quarter. You can easily fathom why we call it that way. It's because it arrives at third quarter of the Moon's orbit. The bright side of the Moon we can see will start shrinking during this process until it's back to half-bright. ");
+    $("#moonphasetext").html("One week after the Full Moon, the Moon will move to its next phase - the Third Quarter. You can easily fathom why we call it that way. The Moon arrives at the third quarter of its orbit. You will notice that the bright side of the Moon will start to shrink since Full Moon until it’s back to half-bright.");
   })
   
 
@@ -146,7 +146,7 @@ function firstQuarterMoonrise() {
     animation2_3.playSegments([576,850], true);
 
     $("#moonrise").html("First Quarter");
-    $("#moonrisetext").html("7 days pass by, when it comes to the first quarter, it will rise at about noon and set at about midnight, due to the moon rise gets delayed day after day since the New Moon.  ");
+    $("#moonrisetext").html("7 days pass by, when it comes to the first quarter, it will rise at about noon and set at about midnight, due to the moon rise gets later day after day since the New Moon.  ");
   })
   
 }
