@@ -21,6 +21,49 @@
 /* 07 - swiper sliders */
 /* 08 - buttons, clicks, hovers */
 
+/*-------------------- Object Construction ------------------------*/
+function Project(projectID,index,projectName,time,projectType,filterType,projectDescription,projectBG) {
+    this.projectID = projectID;
+    this.index = index;
+    this.indexImgURL = "img/indexbackground_" + this.projectID + ".jpg";;
+    this.indexHref = "project_" + this.projectID + ".html";
+    this.detailImgURL = "img/detailbackground_" + this.projectID + ".jpg",
+    this.projectName = projectName,
+    this.time = time,
+    this.projectType = projectType,
+    this.filterType = filterType,
+	this.projectDescription = projectDescription,
+	this.projectBG = projectBG
+}
+
+const PROJECT = {
+    projects:[
+        new Project("enjoymaterial",0,"Enjoy Music Material Design","","redesign",["f-redesign"],"","light"),
+		new Project("enjoyredesign",1,"Enjoy Music Redesign","","redesign",["f-redesign"],"","light"),
+        new Project("noh",2,"Japanese Noh Theatre","","app design",["f-appDesign"],"","light"),
+        new Project("profile",3,"Profile","","logo design",["f-appDesign"],"","light"),
+        new Project("aicscan",4,"Scan+","","app design",["f-appDesign"],"","light"),
+        new Project("heartrate",5,"Heart Rate Phono","","tangible",["f-tangible"],"","light"),
+        new Project("suicide",6,"Suicide in The United States","","infographic design",["f-infographic"],"","dark"),
+        new Project("stroller",7,"Stroller","","tangible",["f-tangible"],"","light"),
+        new Project("moonrise",8,"Moonrise E-Learning System","","web design / interactive animation / development",["f-development","f-animation","f-webDesign"],"","light"),
+        new Project("idlabdesignsystem",9,"iDLab i! Design System","","design system",["f-designSystem"],"","light"),
+        new Project("odi",10,"ODI Conference 2020","","web design",["f-webDesign"],"","light")
+	],
+	
+	indexOrder:[7,8,9,10,6,5,2,1,0,4,3],
+	
+	returnCurrentIndex: function(i){
+		let currentIndex = this.indexOrder.findIndex((e)=> e===i)
+		return currentIndex
+	},
+
+	returnProject: function (i){
+		return this.projects[this.indexOrder[i]];
+	}
+
+
+}
 
 $(function() {
 
@@ -29,6 +72,9 @@ $(function() {
 	/*================*/
 	/* 01 - VARIABLES */
 	/*================*/
+
+
+
 	var swipers = [], winW, winH, winScr, footerTop, _isresponsive, _ismobile = navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i);
 
 	/*========================*/

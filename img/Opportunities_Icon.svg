@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="248" viewBox="0 0 500 248">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Opportunities_Icon);
+      }
+
+      .cls-2 {
+        fill: #3e118d;
+        font-size: 40px;
+        font-family: NotoSansSC-Thin, Noto Sans SC;
+        font-weight: 200;
+      }
+
+      .cls-3 {
+        fill: #ad9bcf;
+        stroke: #ad9bcf;
+        stroke-width: 2px;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-Opportunities_Icon">
+      <rect width="500" height="248"/>
+    </clipPath>
+  </defs>
+  <g id="Opportunities_Icon" class="cls-1">
+    <rect class="cls-4" width="500" height="248"/>
+    <text id="Opportunities" class="cls-2" transform="translate(250 192)"><tspan x="-122.24" y="0">Opportunities</tspan></text>
+    <g id="noun_opportunity_1863693" transform="translate(202 31)">
+      <path id="Path_1" data-name="Path 1" class="cls-3" d="M48,16a31.12,31.12,0,0,0-3.63.214A29.982,29.982,0,0,0,33,71.953V76A10,10,0,0,0,43,86H53A10,10,0,0,0,63,76V71.954A29.983,29.983,0,0,0,48,16ZM60.494,67.627,58,69.072V76a5.006,5.006,0,0,1-5,5H43a5.006,5.006,0,0,1-5-5V69.072l-2.494-1.444a24.982,24.982,0,0,1,9.446-46.448A26.248,26.248,0,0,1,48,21,24.983,24.983,0,0,1,60.494,67.627ZM60.5,93.5A2.5,2.5,0,0,1,58,96H53a5,5,0,1,1-10,0H38a2.5,2.5,0,1,1,0-5H58a2.5,2.5,0,0,1,2.5,2.5ZM13,46a2.5,2.5,0,0,1-2.5,2.5h-5a2.5,2.5,0,0,1,0-5h5A2.5,2.5,0,0,1,13,46Zm80,0a2.5,2.5,0,0,1-2.5,2.5h-5a2.5,2.5,0,0,1,0-5h5A2.5,2.5,0,0,1,93,46ZM45.5,8.5v-5a2.5,2.5,0,1,1,5,0v5a2.5,2.5,0,1,1-5,0Zm34.319,5.679a2.5,2.5,0,0,1,0,3.535l-3.535,3.535a2.5,2.5,0,1,1-3.535-3.535l3.535-3.535a2.5,2.5,0,0,1,3.535,0Zm-60.1,7.07-3.535-3.535a2.5,2.5,0,1,1,3.535-3.535l3.535,3.535a2.5,2.5,0,1,1-3.535,3.535Z"/>
+    </g>
+  </g>
+</svg>

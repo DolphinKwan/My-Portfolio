@@ -20,7 +20,7 @@
     <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400italic,700italic' rel='stylesheet' type='text/css'>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.3/lottie.min.js" integrity="sha512-35O/v2b9y+gtxy3HK+G3Ah60g1hGfrxv67nL6CJ/T56easDKE2TAukzxW+/WOLqyGE7cBg0FR2KhiTJYs+FKrw==" crossorigin="anonymous"></script>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="css/bootstrap.extension.css" rel="stylesheet" type="text/css" />
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
@@ -40,7 +40,11 @@
 
     <!-- LOADER -->
     <div id="loader-wrapper"></div>
-    <div class="overlay frame" data-rel="1">
+
+    <!--------- hidden nav is here ---------->
+    <div id="hiddenNav"></div>
+
+    <div class="overlay frame" data-rel="2">
         <div class="animation-wrapper full-size"></div>
         <div class="content-wrapper full-size">
             <div class="overlay-cell-align">
@@ -81,15 +85,20 @@
                                     <div class="empty-space col-xs-b20"></div>
                                     <div class="icon-description-entry clearfix col-xs-b20">
                                         <i class="fa fa-envelope"></i>
-                                        <p>Email: <a class="mouseover-simple" style="color: #fff;" href="mailto:Dolphin_Kwan@hotmail.com"><b>Dolphin_Kwan@hotmail.com</b></a></p>
+                                        <p>Email: <a class="mouseover-simple" style="color: #fff;" href="mailto:daoxunguan@outlook.com"><b>daoxunguan@outlook.com</b></a></p>
                                     </div>
                                     <div class="icon-description-entry clearfix col-xs-b20">
                                         <i class="fa fa-phone"></i>
-                                        <p>Phone: <a class="mouseover-simple" style="color: #fff;" href="tel:+13124685307"><b>+1 312 468 5307,</b></a> <a class="mouseover-simple" style="color: #fff;" href="tel:+0009872251"></a></p>
+                                        <p>Phone: 
+                                            </br>
+                                            <a class="mouseover-simple" style="color: #fff;" href="tel:+8618100250027"><b>+86 181 0025 0027,</b></a>
+                                            </br>
+                                            <a class="mouseover-simple" style="color: #fff;" href="tel:+13124685307"><b>+1 312 468 5307,</b></a>
+                                        </p>
                                     </div>
                                     <div class="icon-description-entry clearfix col-xs-b20">
                                         <i class="fa fa-map-marker"></i>
-                                        <p>Address: <a style="color: #fff;" href="https://www.google.ca/maps/place/DePaul+University+-+Loop+Campus/@41.8995312,-87.6759933,13z/data=!4m8!1m2!2m1!1sdepaul+university!3m4!1s0x880e2ca2e0751abf:0x963b6892ffb300ff!8m2!3d41.877512!4d-87.627227" target="_blank"><b>1 E Jackson Blvd, Chicago, IL 60604</b></a></p>
+                                        <!-- <p>Address: <a style="color: #fff;" href="https://www.google.ca/maps/place/DePaul+University+-+Loop+Campus/@41.8995312,-87.6759933,13z/data=!4m8!1m2!2m1!1sdepaul+university!3m4!1s0x880e2ca2e0751abf:0x963b6892ffb300ff!8m2!3d41.877512!4d-87.627227" target="_blank"><b>1 E Jackson Blvd, Chicago, IL 60604</b></a></p> -->
                                     </div>
                                 </div>
                                 <form class="contact-form">
@@ -133,15 +142,19 @@
         <header class="type-4 fixed white">
             <div class="wide-container-fluid">
                 <div class="row">
-                    <div class="col-sm-4 hidden-xs">
-<!--
+                    <!-- <div class="col-sm-4 hidden-xs">
+
                         <div class="header-block">
                             <a class="mouseover-simple" href="tel:+35554358125">Tel. +1 312 468 5307</a>
                         </div>
--->
-                    </div>
+
+                    </div> -->
                     <div class="col-xs-6 col-xs-text-left col-sm-text-center col-sm-12">
-                        <a class="logo" href="/index.html"><img src="img/logo.png" alt="" /></a>  
+                        <!-- <a class="logo" href="/index.html"><img style="height: 80px;" src="img/logo.svg" alt="" /></a>   -->
+                        <div id="logo">
+
+                        </div>
+                        <!-- <a id="logoBM" class="logo" href="/index.html"><img/></a>   -->
                     </div>
                     <div class="col-xs-6 col-sm-4 text-right visible-xs">
                         <div class="hamburger-icon open-overlay" data-rel="1">
@@ -159,167 +172,31 @@
 
             <div class="homepage-4-container">
 
-                <div class="homepage-4-slider">
+                <div id="navBar" class="homepage-4-slider">
 
-                    <nav class="homepage-4-slider-navigation left hidden-xs text-center">
-                        <div class="rotate">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <a class="mouseover-simple" href="about.html">About Me</a>
-                                </div>
-                                <div class="col-sm-6">
-                                    <a style="color: gray;" href="#" >My Blog</a>
-                                </div>
-                            </div>
-                        </div>
-                    </nav>
+                    <!--------- nav here ---------->
 
-                    <nav class="homepage-4-slider-navigation right hidden-xs text-center">
-                        <div class="rotate">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <a class="mouseover-simple open-overlay" data-rel="1" >Contact Me</a>
-                                </div>
-                                <div class="col-sm-6">
-                                    <a class="mouseover-simple" href="/portfolio.html">Portfolio</a>
-                                </div>
-                            </div>
-                        </div>
-                    </nav>
-                    
                     <div class="swiper-container" data-slides-per-view="4" data-breakpoints="1" data-xs-slides="1" data-sm-slides="2" data-md-slides="3" data-mousewheel="1" style="box-shadow: 0 10px 30px grey">
                         <div class="swiper-button-prev swiper-button hidden-xs style-1"></div>
                         <div class="swiper-button-next swiper-button hidden-xs style-1"></div>
-
+                        
                         <div class="swiper-wrapper" >
-                            <div class="swiper-slide">
-                                <a class="entry full-size" href="detail7.html">
-                                    <span class="background-wrapper full-size" style="background-image: url(img/background-17.jpg);"></span>
-                                    <span class="text">
-                                        <span class="slide-title h4 small light"><b>Moonrise E-Learning System</b></span>
-                                        <span class="empty-space col-xs-b15"></span>
-                                        <span class="slide-description simple-article large light transparent">Lorem ipsum dolor sit amet consectetur</span>
-                                        <span class="empty-space col-xs-b15"></span>
-                                        <span class="tags">
-                                            <span class="title"><i>design / interactive animation</i></span>
+                            <template id="localTemplate">
+                                <div class="swiper-slide">
+                                    <a class="entry full-size indexCard" href="#">
+                                        <span class="background-wrapper full-size" style="background-image: url(img/background-9.jpg);"></span>
+                                        <span class="text">
+                                            <span class="slide-title h4 small light"><b>Title</b></span>
+                                            <span class="empty-space col-xs-b15"></span>
+                                            <span class="slide-description simple-article large light transparent">Lorem ipsum dolor sit amet consectetur</span>
+                                            <span class="empty-space col-xs-b15"></span>
+                                            <span class="tags">
+                                                <span class="title"><i>type</i></span>
+                                            </span>
                                         </span>
-                                    </span>
-                                </a>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <a class="entry full-size" href="detail8.html">
-                                    <span class="background-wrapper full-size" style="background-image: url(img/background-16.jpg);"></span>
-                                    <span class="text">
-                                        <span class="slide-title h4 small light"><b>Suicide in the United States</b></span>
-                                        <span class="empty-space col-xs-b15"></span>
-                                        <span class="slide-description simple-article large light transparent">Lorem ipsum dolor sit amet consectetur</span>
-                                        <span class="empty-space col-xs-b15"></span>
-                                        <span class="tags">
-                                            <span class="title"><i>Infographic</i></span>
-                                        </span>
-                                    </span>
-                                </a>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <a class="entry full-size" href="/detail1.html">
-                                    <span class="background-wrapper full-size" style="background-image: url(img/background-9.jpg);"></span>
-                                    <span class="text">
-                                        <span class="slide-title h4 small light"><b>Enjoy Music Material Design</b></span>
-                                        <span class="empty-space col-xs-b15"></span>
-                                        <span class="slide-description simple-article large light transparent">Lorem ipsum dolor sit amet consectetur</span>
-                                        <span class="empty-space col-xs-b15"></span>
-                                        <span class="tags">
-                                            <span class="title"><i>redesign</i></span>
-                                        </span>
-                                    </span>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a class="entry full-size" href="/detail2.html">
-                                    <span class="background-wrapper full-size" style="background-image: url(img/background-10.jpg);"></span>
-                                    <span class="text">
-                                        <span class="slide-title h4 small light"><b>Enjoy Music Redesign</b></span>
-                                        <span class="empty-space col-xs-b15"></span>
-                                        <span class="slide-description simple-article large light transparent">Lorem ipsum dolor sit amet consectetur</span>
-                                        <span class="empty-space col-xs-b15"></span>
-                                        <span class="tags">
-                                            <span class="title"><i>redesign</i></span>
-                                        </span>
-                                    </span>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a class="entry full-size" href="/detail3.html">
-                                    <span class="background-wrapper full-size" style="background-image: url(img/background-11.jpg);"></span>
-                                    <span class="text">
-                                        <span class="slide-title h4 small light"><b>Japanese Noh Theatre</b></span>
-                                        <span class="empty-space col-xs-b15"></span>
-                                        <span class="slide-description simple-article large light transparent">Lorem ipsum dolor sit amet consectetur</span>
-                                        <span class="empty-space col-xs-b15"></span>
-                                        <span class="tags">
-                                            <span class="title"><i>design / concept</i></span>
-                                        </span>
-                                    </span>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a class="entry full-size" href="#">
-                                    <span class="background-wrapper full-size" style=" background-image: url(img/background-12.jpg); " ></span>
-                                    <span class="text">
-                                        <span class="slide-title h4 small light"><b>Profile</b></span>
-                                        <span class="empty-space col-xs-b15"></span>
-                                        <span class="slide-description simple-article large light transparent">Lorem ipsum dolor sit amet consectetur</span>
-                                        <span class="empty-space col-xs-b15"></span>
-                                        <span class="tags">
-                                            <span class="title"><i>logo</i></span>
-                                        </span>
-                                    </span>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a class="entry full-size" href="#">
-                                    <span class="background-wrapper full-size" style="background-image: url(img/background-13.jpg);"></span>
-                                    <span class="text">
-                                        <span class="slide-title h4 small light"><b>Scan+</b></span>
-                                        <span class="empty-space col-xs-b15"></span>
-                                        <span class="slide-description simple-article large light transparent">Lorem ipsum dolor sit amet consectetur</span>
-                                        <span class="empty-space col-xs-b15"></span>
-                                        <span class="tags">
-                                            <span class="title"><i>design / concept</i></span>
-                                        </span>
-                                    </span>
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-								<a class="entry full-size" href="#"> 
-									<span class="background-wrapper full-size" style="background-image: url(img/background-14.jpg);"></span> 
-									<span class="text"> <span class="slide-title h4 small light"><strong>Heart Rate Phono</strong></span> 
-										<span class="empty-space col-xs-b15"></span> 
-										<span class="slide-description simple-article large light transparent">Lorem ipsum dolor sit amet consectetur</span> 
-										<span class="empty-space col-xs-b15"></span> 
-										<span class="tags"> 
-											<span class="title"><em>Tangible</em></span> 
-										</span> 
-									</span> 
-								</a>
-							</div>
-                            <div class="swiper-slide">
-                                <a class="entry full-size" href="#">
-                                    <span class="background-wrapper full-size" style="background-image: url(img/background-15.jpg);"></span>
-                                    <span class="text">
-                                        <span class="slide-title h4 small light"><b>Stroller</b></span>
-                                        <span class="empty-space col-xs-b15"></span>
-                                        <span class="slide-description simple-article large light transparent">Lorem ipsum dolor sit amet consectetur</span>
-                                        <span class="empty-space col-xs-b15"></span>
-                                        <span class="tags">
-                                            <span class="title"><i>Tangible</i></span>
-                                        </span>
-                                    </span>
-                                </a>
-                            </div>
-
+                                    </a>
+                                </div>
+                            </template>
 
                         </div>
                         <div class="swiper-pagination swiper-pagination-white visible-xs"></div>
@@ -349,9 +226,6 @@
                             <span class="title">Follow me:</span>
                             <a class="entry" href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
                             <a class="entry" href="https://www.behance.com/" target="_blank"><i class="fa fa-behance"></i></a>
-                            <a class="entry" href="https://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest-p"></i></a>
-                            <a class="entry" href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
-                            <a class="entry" href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a>
                         </div>
                     </div>
                 </div>
@@ -376,15 +250,18 @@
         </div>
         <a class="button-close"></a>
     </div>
-
+    <script src="js/index.js"></script>
+    <script src="js/nav.js"></script>
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/swiper.jquery.min.js"></script>
     <script src="js/jquery.mousewheel.min.js"></script>
     <script src="js/global.js"></script>
 
+    <script src="js/logo.js"></script>
+
     <!-- CONTACT -->
     <script src="js/contact.form.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js"></script> -->
     <script src="js/map.js"></script>
 </body>
 </html>
