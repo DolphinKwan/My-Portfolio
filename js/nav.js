@@ -54,10 +54,9 @@ hiddenNavTemp.innerHTML =
                             <nav class="text-center single-column clearfix">
                                 <ul>
                                     <li class="active"><a href="index.html">Home</a></li>
-                                    <li><a href="about1.html">About</a></li>
+                                    <li><a href="about.html">About</a></li>
                                     <li><a href="#" style="color:grey">My Blog</a></li>
                                     <li><a href="portfolio.html">Portfolio</a></li>
-                                    <li><a href="detail1.html">Project</a></li>
                                     <li><a href="contacts.html">Contact</a></li>
                                 </ul>
                             </nav>
