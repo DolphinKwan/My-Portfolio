@@ -48,10 +48,11 @@ const PROJECT = {
         new Project("stroller",7,"Stroller","","tangible",["f-tangible"],"","light"),
         new Project("moonrise",8,"Moonrise E-Learning System","","web design / interactive animation / development",["f-development","f-animation","f-webDesign"],"","light"),
         new Project("idlabdesignsystem",9,"iDLab i! Design System","","design system",["f-designSystem"],"","light"),
-        new Project("odi",10,"ODI Conference 2020","","web design",["f-webDesign"],"","light")
+		new Project("odi",10,"ODI Conference 2020","","web design",["f-webDesign"],"","light"),
+		new Project("turboeat",11,"Turbo Eat Backend Management System","","backend system",["f-backendSystem"],"","light")
 	],
 	
-	indexOrder:[7,8,9,10,6,5,2,1,0,4,3],
+	indexOrder:[7,8,9,10,11,6,5,2,1,0,4,3],
 	
 	returnCurrentIndex: function(i){
 		let currentIndex = this.indexOrder.findIndex((e)=> e===i)
