@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="642" height="456" viewBox="0 0 642 456">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #848484;
+        font-size: 18px;
+      }
+
+      .cls-1, .cls-4, .cls-6, .cls-7, .cls-8 {
+        font-family: NotoSansSC-Black, Noto Sans SC;
+        font-weight: 800;
+      }
+
+      .cls-2 {
+        font-size: 16px;
+        font-family: NotoSansSC-Regular, Noto Sans SC;
+      }
+
+      .cls-11, .cls-3, .cls-5 {
+        font-size: 20px;
+      }
+
+      .cls-3 {
+        font-family: NotoSansSC-Bold, Noto Sans SC;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        font-size: 30px;
+      }
+
+      .cls-5 {
+        fill: #888;
+        font-family: NotoSansSC-Thin, Noto Sans SC;
+        font-weight: 200;
+      }
+
+      .cls-6 {
+        fill: #5bffb8;
+      }
+
+      .cls-6, .cls-7, .cls-8 {
+        font-size: 24px;
+      }
+
+      .cls-7 {
+        fill: #ff4343;
+      }
+
+      .cls-8 {
+        fill: #f5da2a;
+      }
+
+      .cls-9 {
+        fill: none;
+        stroke: #dfdfdf;
+      }
+
+      .cls-10 {
+        fill: #ff8943;
+      }
+
+      .cls-11 {
+        fill: #fff;
+        font-family: NotoSansSC-Medium, Noto Sans SC;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <g id="Group_293" data-name="Group 293" transform="translate(-219 -6025)">
+    <text id="Error_Prevention" data-name="Error Prevention" class="cls-1" transform="translate(219 6046)"><tspan x="0" y="0">ERROR PREVENTION</tspan></text>
+    <g id="Group_284" data-name="Group 284" transform="translate(0 -5)">
+      <text id="Add_validation_and_confirmation_before_finishing_donation." data-name="Add validation and confirmation before finishing donation." class="cls-2" transform="translate(219 6462)"><tspan x="0" y="19">Add validation and confirmation before finishing donation.</tspan></text>
+      <text id="Recommendation" class="cls-3" transform="translate(219 6448)"><tspan x="0" y="0">Recommendation</tspan></text>
+    </g>
+    <g id="Group_283" data-name="Group 283" transform="translate(0 -5)">
+      <text id="There_is_no_validation_for_the_donation_form._Users_can_t_tell_if_they_provided_valid_information_before_they_hit_the_donate_button._After_clicking_donate_there_is_no_confirmation_for_people_to_confirm_the_input_information_and_donation_amount._" data-name="There is no validation for the donation form. Users can&apos;t tell if they provided valid information before they hit the donate button. After clicking “donate”, there is no confirmation for people to confirm the input information and donation amount. " class="cls-2" transform="translate(219 6313)"><tspan x="0" y="19">There is no validation for the donation form. Users can&apos;t tell if they provided valid </tspan><tspan x="0" y="43">information before they hit the donate button. After clicking “donate”, there is no </tspan><tspan x="0" y="67">confirmation for people to confirm the input information and donation amount. </tspan></text>
+      <text id="Effects" class="cls-3" transform="translate(219 6299)"><tspan x="0" y="0">Effects</tspan></text>
+    </g>
+    <text id="No_form_validation_and_confirmation" data-name="No form validation and confirmation" class="cls-4" transform="translate(219 6103)"><tspan x="0" y="0">No form validation and confirmation</tspan></text>
+    <g id="Group_266" data-name="Group 266" transform="translate(0 1549)">
+      <g id="Group_259" data-name="Group 259" transform="translate(-26 54)">
+        <text id="Frequency" class="cls-5" transform="translate(482 4622)"><tspan x="-46.01" y="0">Frequency</tspan></text>
+        <text id="Low" class="cls-6" transform="translate(482 4583)"><tspan x="-25.248" y="0">Low</tspan></text>
+      </g>
+      <g id="Group_261" data-name="Group 261" transform="translate(-26 54)">
+        <text id="Impact" class="cls-5" transform="translate(649 4622)"><tspan x="-30.74" y="0">Impact</tspan></text>
+        <text id="High" class="cls-7" transform="translate(648 4585)"><tspan x="-28.428" y="0">High</tspan></text>
+      </g>
+      <g id="Group_262" data-name="Group 262" transform="translate(11 54)">
+        <text id="persistence" class="cls-5" transform="translate(800 4622)"><tspan x="-49.97" y="0">persistence</tspan></text>
+        <text id="Medium" class="cls-8" transform="translate(800 4585)"><tspan x="-49.092" y="0">Medium</tspan></text>
+      </g>
+      <line id="Line_4" data-name="Line 4" class="cls-9" y2="44" transform="translate(369.5 4604.5)"/>
+      <line id="Line_5" data-name="Line 5" class="cls-9" y2="44" transform="translate(550.5 4604.5)"/>
+      <line id="Line_6" data-name="Line 6" class="cls-9" y2="44" transform="translate(711.5 4604.5)"/>
+      <g id="Group_270" data-name="Group 270" transform="translate(2 54)">
+        <text id="Severe_Level_" data-name="Severe Level " class="cls-5" transform="translate(281 4622)"><tspan x="-56.85" y="0">Severe Level </tspan></text>
+        <g id="Component_52_8" data-name="Component 52 – 8" transform="translate(263 4555)">
+          <path id="Path_368" data-name="Path 368" class="cls-10" d="M18,0A18,18,0,1,1,0,18,18,18,0,0,1,18,0Z"/>
+          <text id="_3" data-name="3" class="cls-11" transform="translate(12 26)"><tspan x="0" y="0">3</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

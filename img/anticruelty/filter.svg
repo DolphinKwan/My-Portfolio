@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="642" height="432" viewBox="0 0 642 432">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #848484;
+        font-size: 18px;
+      }
+
+      .cls-1, .cls-4, .cls-8 {
+        font-family: NotoSansSC-Black, Noto Sans SC;
+        font-weight: 800;
+      }
+
+      .cls-2 {
+        font-size: 16px;
+        font-family: NotoSansSC-Regular, Noto Sans SC;
+      }
+
+      .cls-3, .cls-5, .cls-7 {
+        font-size: 20px;
+      }
+
+      .cls-3 {
+        font-family: NotoSansSC-Bold, Noto Sans SC;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        font-size: 30px;
+      }
+
+      .cls-5 {
+        fill: #888;
+        font-family: NotoSansSC-Thin, Noto Sans SC;
+        font-weight: 200;
+      }
+
+      .cls-6 {
+        fill: #ff8943;
+      }
+
+      .cls-7 {
+        fill: #fff;
+        font-family: NotoSansSC-Medium, Noto Sans SC;
+        font-weight: 500;
+      }
+
+      .cls-8 {
+        fill: #f5da2a;
+        font-size: 24px;
+      }
+
+      .cls-9 {
+        fill: none;
+        stroke: #dfdfdf;
+      }
+    </style>
+  </defs>
+  <g id="Group_290" data-name="Group 290" transform="translate(-219 -4350)">
+    <text id="Flexibility_and_Efficiency_of_Use" data-name="Flexibility and Efficiency of Use" class="cls-1" transform="translate(219 4371)"><tspan x="0" y="0">FLEXIBILITY AND EFFICIENCY OF USE</tspan></text>
+    <g id="Group_278" data-name="Group 278" transform="translate(0 -17)">
+      <text id="Add_3rd-level_menu_or_side-menu_after_clicking_2th-level_menu." data-name="Add 3rd-level menu, or side-menu after clicking 2th-level menu." class="cls-2" transform="translate(219 4775)"><tspan x="0" y="19">Add 3rd-level menu, or side-menu after clicking 2th-level menu.</tspan></text>
+      <text id="Recommendation" class="cls-3" transform="translate(219 4761)"><tspan x="0" y="0">Recommendation</tspan></text>
+    </g>
+    <text id="Pet_filter_is_not_smart_enough" data-name="Pet filter is not smart enough" class="cls-4" transform="translate(219 4428)"><tspan x="0" y="0">Pet filter is not smart enough</tspan></text>
+    <g id="Group_277" data-name="Group 277" transform="translate(0 -44)">
+      <text id="When_using_pet_filter_the_results_only_show_after_clicking_the_Apply_Filters_button_even_there_is_no_results_under_the_filter_condition." data-name="When using pet filter, the results only show after clicking the &quot;Apply Filters&quot; button, even there is no results under the filter condition." class="cls-2" transform="translate(219 4677)"><tspan x="0" y="19">When using pet filter, the results only show after clicking the &quot;Apply Filters&quot; button, </tspan><tspan x="0" y="43">even there is no results under the filter condition.</tspan></text>
+      <text id="Effects" class="cls-3" transform="translate(219 4663)"><tspan x="0" y="0">Effects</tspan></text>
+    </g>
+    <g id="Group_264" data-name="Group 264" transform="translate(0 -126)">
+      <g id="Group_260" data-name="Group 260" transform="translate(2 54)">
+        <text id="Severe_Level_" data-name="Severe Level " class="cls-5" transform="translate(281 4622)"><tspan x="-56.85" y="0">Severe Level </tspan></text>
+        <g id="Component_52_6" data-name="Component 52 – 6" transform="translate(263 4555)">
+          <path id="Path_368" data-name="Path 368" class="cls-6" d="M18,0A18,18,0,1,1,0,18,18,18,0,0,1,18,0Z"/>
+          <text id="_3" data-name="3" class="cls-7" transform="translate(12 26)"><tspan x="0" y="0">3</tspan></text>
+        </g>
+      </g>
+      <g id="Group_259" data-name="Group 259" transform="translate(-26 54)">
+        <text id="Frequency" class="cls-5" transform="translate(482 4622)"><tspan x="-46.01" y="0">Frequency</tspan></text>
+        <text id="Medium" class="cls-8" transform="translate(482 4583)"><tspan x="-49.092" y="0">Medium</tspan></text>
+      </g>
+      <g id="Group_261" data-name="Group 261" transform="translate(-26 54)">
+        <text id="Impact" class="cls-5" transform="translate(649 4622)"><tspan x="-30.74" y="0">Impact</tspan></text>
+        <text id="Medium-2" data-name="Medium" class="cls-8" transform="translate(648 4585)"><tspan x="-49.092" y="0">Medium</tspan></text>
+      </g>
+      <g id="Group_262" data-name="Group 262" transform="translate(11 54)">
+        <text id="persistence" class="cls-5" transform="translate(800 4622)"><tspan x="-49.97" y="0">persistence</tspan></text>
+        <text id="Medium-3" data-name="Medium" class="cls-8" transform="translate(800 4585)"><tspan x="-49.092" y="0">Medium</tspan></text>
+      </g>
+      <line id="Line_4" data-name="Line 4" class="cls-9" y2="44" transform="translate(369.5 4604.5)"/>
+      <line id="Line_5" data-name="Line 5" class="cls-9" y2="44" transform="translate(550.5 4604.5)"/>
+      <line id="Line_6" data-name="Line 6" class="cls-9" y2="44" transform="translate(711.5 4604.5)"/>
+    </g>
+  </g>
+</svg>

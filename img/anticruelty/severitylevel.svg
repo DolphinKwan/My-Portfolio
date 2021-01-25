@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="595" height="308" viewBox="0 0 595 308">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #5bffb8;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 20px;
+        font-family: NotoSansSC-Medium, Noto Sans SC;
+        font-weight: 500;
+      }
+
+      .cls-3 {
+        fill: #9bff43;
+      }
+
+      .cls-4 {
+        fill: #f5da2a;
+      }
+
+      .cls-5 {
+        fill: #ff8943;
+      }
+
+      .cls-6 {
+        fill: #ff4343;
+      }
+
+      .cls-7 {
+        font-size: 24px;
+        font-family: NotoSansSC-Regular, Noto Sans SC;
+      }
+
+      .cls-8 {
+        fill: none;
+        stroke: #b4b4b4;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Group_289" data-name="Group 289" transform="translate(-145 -3945)">
+    <g id="Component_52_1" data-name="Component 52 – 1" transform="translate(145 3945)">
+      <circle id="Ellipse_2" data-name="Ellipse 2" class="cls-1" cx="18" cy="18" r="18"/>
+      <text id="_0" data-name="0" class="cls-2" transform="translate(12 26)"><tspan x="0" y="0">0</tspan></text>
+    </g>
+    <g id="Component_52_2" data-name="Component 52 – 2" transform="translate(145 4009)">
+      <circle id="Ellipse_2-2" data-name="Ellipse 2" class="cls-3" cx="18" cy="18" r="18"/>
+      <text id="_1" data-name="1" class="cls-2" transform="translate(12 26)"><tspan x="0" y="0">1</tspan></text>
+    </g>
+    <g id="Component_52_3" data-name="Component 52 – 3" transform="translate(145 4077)">
+      <circle id="Ellipse_2-3" data-name="Ellipse 2" class="cls-4" cx="18" cy="18" r="18"/>
+      <text id="_2" data-name="2" class="cls-2" transform="translate(12 26)"><tspan x="0" y="0">2</tspan></text>
+    </g>
+    <g id="Component_52_4" data-name="Component 52 – 4" transform="translate(145 4145)">
+      <path id="Path_368" data-name="Path 368" class="cls-5" d="M18,0A18,18,0,1,1,0,18,18,18,0,0,1,18,0Z"/>
+      <text id="_3" data-name="3" class="cls-2" transform="translate(12 26)"><tspan x="0" y="0">3</tspan></text>
+    </g>
+    <g id="Component_52_5" data-name="Component 52 – 5" transform="translate(145 4213)">
+      <path id="Path_369" data-name="Path 369" class="cls-6" d="M18,0A18,18,0,1,1,0,18,18,18,0,0,1,18,0Z"/>
+      <text id="_4" data-name="4" class="cls-2" transform="translate(12 26)"><tspan x="0" y="0">4</tspan></text>
+    </g>
+    <text id="Don_t_agree_that_this_is_a_usability_problem" data-name="Don&apos;t agree that this is a usability problem" class="cls-7" transform="translate(268 3973)"><tspan x="0" y="0">Don&apos;t agree that this is a usability problem</tspan></text>
+    <text id="Usability_catastrophe_Imperative_to_fix" data-name="Usability catastrophe; Imperative to fix" class="cls-7" transform="translate(268 4245)"><tspan x="0" y="0">Usability catastrophe; Imperative to fix</tspan></text>
+    <text id="Major_usability_problem_Important_to_fix" data-name="Major usability problem; Important to fix" class="cls-7" transform="translate(268 4177)"><tspan x="0" y="0">Major usability problem; Important to fix</tspan></text>
+    <text id="Minor_usability_problem" data-name="Minor usability problem" class="cls-7" transform="translate(268 4109)"><tspan x="0" y="0">Minor usability problem</tspan></text>
+    <text id="Cosmetic_problem_" data-name="Cosmetic problem " class="cls-7" transform="translate(268 4041)"><tspan x="0" y="0">Cosmetic problem </tspan></text>
+    <path id="Path_362" data-name="Path 362" class="cls-8" d="M-1738,3561h27" transform="translate(1949 402)"/>
+    <path id="Path_363" data-name="Path 363" class="cls-8" d="M-1738,3561h27" transform="translate(1949 470)"/>
+    <path id="Path_364" data-name="Path 364" class="cls-8" d="M-1738,3561h27" transform="translate(1949 538)"/>
+    <path id="Path_365" data-name="Path 365" class="cls-8" d="M-1738,3561h27" transform="translate(1949 606)"/>
+    <path id="Path_366" data-name="Path 366" class="cls-8" d="M-1738,3561h27" transform="translate(1949 674)"/>
+  </g>
+</svg>

@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="643" height="432" viewBox="0 0 643 432">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #848484;
+        font-size: 18px;
+      }
+
+      .cls-1, .cls-4, .cls-6, .cls-7 {
+        font-family: NotoSansSC-Black, Noto Sans SC;
+        font-weight: 800;
+      }
+
+      .cls-2 {
+        font-size: 16px;
+        font-family: NotoSansSC-Regular, Noto Sans SC;
+      }
+
+      .cls-10, .cls-3, .cls-5 {
+        font-size: 20px;
+      }
+
+      .cls-3 {
+        font-family: NotoSansSC-Bold, Noto Sans SC;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        font-size: 30px;
+      }
+
+      .cls-5 {
+        fill: #888;
+        font-family: NotoSansSC-Thin, Noto Sans SC;
+        font-weight: 200;
+      }
+
+      .cls-6 {
+        fill: #f5da2a;
+      }
+
+      .cls-6, .cls-7 {
+        font-size: 24px;
+      }
+
+      .cls-7, .cls-9 {
+        fill: #ff4343;
+      }
+
+      .cls-8 {
+        fill: none;
+        stroke: #dfdfdf;
+      }
+
+      .cls-10 {
+        fill: #fff;
+        font-family: NotoSansSC-Medium, Noto Sans SC;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <g id="Group_291" data-name="Group 291" transform="translate(-218 -4890)">
+    <text id="Aesthetic_and_Minimalist_Design" data-name="Aesthetic and Minimalist Design" class="cls-1" transform="translate(219 4911)"><tspan x="0" y="0">AESTHETIC AND MINIMALIST DESIGN</tspan></text>
+    <g id="Group_280" data-name="Group 280" transform="translate(0 4)">
+      <text id="Add_one_more_level_of_navigation_and_put_the_most_important_services_upfront." data-name="Add one more level of navigation and put the most important services upfront." class="cls-2" transform="translate(219 5294)"><tspan x="0" y="19">Add one more level of navigation and put the most important services upfront.</tspan></text>
+      <text id="Recommendation" class="cls-3" transform="translate(219 5280)"><tspan x="0" y="0">Recommendation</tspan></text>
+    </g>
+    <g id="Group_279" data-name="Group 279" transform="translate(0 -5)">
+      <text id="There_are_too_much_information_is_shown_to_users_at_once_under_the_sub-navigation_menu._It_is_hard_for_users_to_coordinate_different_content." data-name="There are too much information is shown to users at once under the sub-navigation menu. It is hard for users to coordinate different content." class="cls-2" transform="translate(219 5178)"><tspan x="0" y="19">There are too much information is shown to users at once under the sub-navigation </tspan><tspan x="0" y="43">menu. It is hard for users to coordinate different content.</tspan></text>
+      <text id="Effects" class="cls-3" transform="translate(219 5164)"><tspan x="0" y="0">Effects</tspan></text>
+    </g>
+    <text id="Overwhelming_Sub-Navigation" data-name="Overwhelming Sub-Navigation" class="cls-4" transform="translate(219 4968)"><tspan x="0" y="0">Overwhelming Sub-Navigation</tspan></text>
+    <g id="Group_263" data-name="Group 263" transform="translate(0 414)">
+      <g id="Group_259" data-name="Group 259" transform="translate(-26 54)">
+        <text id="Frequency" class="cls-5" transform="translate(482 4622)"><tspan x="-46.01" y="0">Frequency</tspan></text>
+        <text id="Medium" class="cls-6" transform="translate(482 4583)"><tspan x="-49.092" y="0">Medium</tspan></text>
+      </g>
+      <g id="Group_261" data-name="Group 261" transform="translate(-26 54)">
+        <text id="Impact" class="cls-5" transform="translate(649 4622)"><tspan x="-30.74" y="0">Impact</tspan></text>
+        <text id="High" class="cls-7" transform="translate(648 4585)"><tspan x="-28.428" y="0">High</tspan></text>
+      </g>
+      <g id="Group_262" data-name="Group 262" transform="translate(11 54)">
+        <text id="persistence" class="cls-5" transform="translate(800 4622)"><tspan x="-49.97" y="0">persistence</tspan></text>
+        <text id="High-2" data-name="High" class="cls-7" transform="translate(800 4585)"><tspan x="-28.428" y="0">High</tspan></text>
+      </g>
+      <line id="Line_4" data-name="Line 4" class="cls-8" y2="44" transform="translate(369.5 4604.5)"/>
+      <line id="Line_5" data-name="Line 5" class="cls-8" y2="44" transform="translate(550.5 4604.5)"/>
+      <line id="Line_6" data-name="Line 6" class="cls-8" y2="44" transform="translate(711.5 4604.5)"/>
+      <g id="Group_269" data-name="Group 269" transform="translate(2 54)">
+        <text id="Severe_Level_" data-name="Severe Level " class="cls-5" transform="translate(281 4622)"><tspan x="-56.85" y="0">Severe Level </tspan></text>
+        <g id="Component_52_7" data-name="Component 52 – 7" transform="translate(263 4555)">
+          <path id="Path_369" data-name="Path 369" class="cls-9" d="M18,0A18,18,0,1,1,0,18,18,18,0,0,1,18,0Z"/>
+          <text id="_4" data-name="4" class="cls-10" transform="translate(12 26)"><tspan x="0" y="0">4</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

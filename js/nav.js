@@ -12,7 +12,7 @@ logoTemp.innerHTML = `
 /*-------------- Main Nav Template -------------- */ 
 const navTemp = document.createElement("template");
 navTemp.innerHTML = 
-`<nav class="homepage-4-slider-navigation left hidden-xs text-center">
+`<nav class="homepage-4-slider-navigation left hidden-xs text-center d-none d-md-block">
 <div class="rotate">
     <div class="row">
         <div class="col-sm-6">
@@ -25,7 +25,7 @@ navTemp.innerHTML =
 </div>
 </nav>
 
-<nav class="homepage-4-slider-navigation right hidden-xs text-center"">
+<nav class="homepage-4-slider-navigation right hidden-xs text-center d-none d-md-block">
 <div class="rotate">
     <div class="row">
         <div class="col-sm-6">
@@ -76,10 +76,10 @@ const bottomNavTemp = document.createElement("template");
 bottomNavTemp.innerHTML = 
 `
 <div class="row nopadding">
-    <div class="col-xs-4">
+    <div class="col-xs-4 col-4">
         <a class="bottomNavLeft portfolio-detail-related-entry" href="#">
             <span class="background full-size" style="background-image: url(img/portfolio-36.jpg);"></span>
-            <span class="text hidden-xs">
+            <span class="text hidden-xs d-none d-md-block">
                 <span class="wide-container align-left">
                     <span class="tag"><span class="inline-indent"></span>photoshooting</span>
                     <span class="h4 light"><b>LADY WHO WAITING</b></span>
@@ -87,7 +87,7 @@ bottomNavTemp.innerHTML =
             </span>
         </a>
     </div>
-    <div class="col-xs-4">
+    <div class="col-xs-4 col-4">
         <div class="portfolio-detail-related-entry">
             <a class="square-hamburger-icon" href="/portfolio.html">
                 <span></span>
@@ -102,10 +102,10 @@ bottomNavTemp.innerHTML =
             </a>
         </div>
     </div>
-    <div class="col-xs-4">
+    <div class="col-xs-4 col-4">
         <a class="bottomNavRight portfolio-detail-related-entry" href="#">
             <span class="background full-size" style="background-image: url(img/portfolio-37.jpg);"></span>
-            <span class="text hidden-xs">
+            <span class="text hidden-xs d-none d-md-block">
                 <span class="wide-container align-right">
                     <span class="tag"><span class="inline-indent"></span>photoshooting</span>
                     <span class="h4 light"><b>LADY IN BLACK</b></span>
@@ -202,7 +202,7 @@ document.addEventListener("DOMContentLoaded",()=>{
                 }
 
             }
-            else{console.log(`${element} doesn't exist`);}
+            else{console.log(`${element.insertID} doesn't exist`);}
             
         });
         // navBar.insertBefore(navTemp.content, navBar.firstChild);
