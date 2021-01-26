@@ -50,7 +50,7 @@ const PROJECT = {
         new Project("idlabdesignsystem",9,"iDLab i! Design System","","design system",["f-designSystem"],"","light"),
 		new Project("odi",10,"ODI Conference 2020","","web design",["f-webDesign"],"","light"),
 		new Project("turboeat",11,"Turbo Eat Backend Management System","","backend system",["f-backendSystem"],"","light"),
-		new Project("anticruelty",12,"Anti Cruelty Socielty Website Redesign","","website redesign",["f-redesign"],"","light")
+		new Project("anticruelty",12,"Anti Cruelty Socielty Website Redesign","","website redesign",["f-redesign","f-webDesign"],"","light")
 	],
 	
 	indexOrder:[12,7,8,9,10,11,6,5,2,1,0,4,3],
